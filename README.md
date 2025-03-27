@@ -1,4 +1,12 @@
 # 🛰️ Ram Rocketry & ElevateCS: Avionics Guidance System
+
+- Project Manager: Jackson Castleberry 
+
+- Systems and Software Engineering Team Lead: Sabrina Ornelas
+
+- Main Systems and Software Engineering Team:  Parker Volesky, Osarumen Okhiku, Ethan Wise, Kyle Smith Hanna
+
+
 This project focuses on developing an onboard guidance system for high-powered rockets as part of the Ram Rocketry team. It is split into two key objectives:
 
 # 🚀 Objective 1: Implementing a Kalman Fusion Filter
@@ -6,10 +14,10 @@ This project focuses on developing an onboard guidance system for high-powered r
 A Kalman filter is an advanced algorithm that fuses noisy sensor data to estimate the true state of a system — in this case, the rocket’s orientation and motion.
 ![maxresdefault](https://github.com/user-attachments/assets/667f783c-323d-4abf-b7ba-3a1035c04ca0)
 
-🧠 Why it matters:
+## 🧠 Why it matters:
 Rockets experience a lot of vibration and unpredictable motion. Raw data from sensors like gyroscopes and accelerometers can be noisy or drift over time. The Kalman filter takes all this data and intelligently smooths it out, providing a more accurate and stable estimate of things like pitch, roll, and yaw.
 
-📌 Project Status:
+## 📌 Project Status:
 RR's current Kalman fusion filter code (in C++) is under review. It has been written by past members but is not yet functional and requires debugging and validation. This is an active area of development and a great place for contributors to learn about:
 
 - Sensor fusion
@@ -22,10 +30,10 @@ RR's current Kalman fusion filter code (in C++) is under review. It has been wri
 🔧 What it is:
 A PID controller (Proportional-Integral-Derivative) is a control loop algorithm that calculates how to adjust a system (like fin angles) to reach a target value (like a stable orientation).
 
-🧠 Why it matters:
+## 🧠 Why it matters:
 Once the Kalman filter provides clean orientation data, the PID controller takes over to compute real-time corrections. It helps adjust the rocket’s fins to minimize error, like tilting too far off course.
 
-🌐 How it works:
+## 🌐 How it works:
 
 - Proportional: Corrects based on how far the rocket is from the desired angle
 
@@ -33,7 +41,7 @@ Once the Kalman filter provides clean orientation data, the PID controller takes
 
 - Derivative: Predicts future behavior based on current rate of change
 
-📌 Project Status:
+## 📌 Project Status:
 The PID controller will be developed after the Kalman filter is stable. It will use the filtered orientation data as input, and drive fin actuation via servo motors. This component is essential for autonomous flight stability.
 
 # Using a Model-Based Systems Approach
@@ -53,10 +61,49 @@ Wire Library: https://docs.platformio.org/en/latest/projectconf/index.html
 
 Flight Software Setup - Landing Model Rockets Ep. 8: https://youtu.be/ha-0-D1vHmY?si=jSYhp7M_27cIr6Y0
 
- # Who This Is For
-- New Members: Learn by contributing to real aerospace systems, understand core control theory and sensor fusion
+# 🎯 Who This Is For
+This project is intended for:
 
-- Recruiters/Reviewers: See clean, modular code with documented systems engineering principles, control logic, and filtering algorithms
+- New ElevateCS members
+Interested in learning how control systems work, contributing to hands-on rocketry software, or getting experience with C++, sensor data, and embedded systems.
 
-- Collaborators: Clear interface points, open issues, and roadmaps for both debugging and expansion
+- Students curious about systems engineering
+Who want to see how early debugging, requirements analysis, and testing fit into the larger engineering lifecycle.
+
+- Software or electrical engineering students
+With an interest in real-time systems, Kalman filters, PID controllers, or flight stabilization.
+
+- Open source contributors
+Looking to explore a modular and educational rocket control project.
+
+# 🤝 How to Contribute
+We’re currently in the debugging and early testing phase, and all help is welcome — from software and hardware work to documentation, research, and testing!
+
+## 🧠 You can help with:
+Debugging and improving the existing Kalman fusion filter code
+
+Writing test cases and visualizations using real or simulated sensor data
+
+Documenting system behavior as we refine outputs (e.g., pitch/roll/yaw drift, latency, tuning needs)
+
+Learning and sharing knowledge about PID control, Teensy boards, or Arduino-based systems
+
+# 🛠️ Getting Started (Coming Soon)
+We’ll be publishing:
+
+- A full setup guide for compiling and flashing Teensy microcontrollers
+
+- Sensor data formats and CSV test files
+
+- Code commenting and contribution style guide
+
+# 💬 Interested in Joining?
+Open an issue or start a discussion in the repo
+
+Email us at contact.elevatecs@gmail.com or talk to any ElevateCS club officer
+
+# 🧑‍🎓 New to GitHub or C++?
+No problem — we’ll walk you through contributing and learning the tools. This project is beginner-friendly and a great intro to systems-based thinking.
+
+
 
