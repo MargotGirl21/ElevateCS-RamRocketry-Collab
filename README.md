@@ -38,6 +38,8 @@ The PID controller will be developed after the Kalman filter is stable. It will 
 # Using a Model-Based Systems Approach
 ![Drawing (1)](https://github.com/user-attachments/assets/54074cd6-14a3-4245-a6a3-4441b74a597d)
 
+# Data Flow
+![Drawing (2)](https://github.com/user-attachments/assets/6a2e45cb-eb40-4718-8e49-44509a67b445)
 
  # Who This Is For
 - New Members: Learn by contributing to real aerospace systems, understand core control theory and sensor fusion
