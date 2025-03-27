@@ -4,7 +4,7 @@
 
 - Systems and Software Engineering Team Lead: Sabrina Ornelas
 
-- Main Systems and Software Engineering Team:  Parker Volesky, Osarumen Okhiku, Ethan Wise, Kyle Smith Hanna
+- Main Systems and Software Engineering Team: Deon Ornelas, Parker Volesky, Osarumen Okhiku, Ethan Wise, Kyle Smith Hanna
 
 
 This project focuses on developing an onboard guidance system for high-powered rockets as part of the Ram Rocketry team. It is split into two key objectives:
