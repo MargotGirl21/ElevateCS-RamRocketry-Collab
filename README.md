@@ -6,6 +6,8 @@
 
 - Main Systems and Software Engineering Team: Deon Ornelas, Parker Volesky, Osarumen Okhiku, Ethan Wise, Kyle Smith Hanna
 
+- CSU Facutly Advisor: Fabio De Abreu Santos
+
 
 This project focuses on developing an onboard guidance system for high-powered rockets as part of the Ram Rocketry team. It is split into two key objectives:
 
