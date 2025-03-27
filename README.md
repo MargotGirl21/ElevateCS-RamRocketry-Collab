@@ -42,6 +42,17 @@ The PID controller will be developed after the Kalman filter is stable. It will 
 # Data Flow
 ![Drawing (2)](https://github.com/user-attachments/assets/6a2e45cb-eb40-4718-8e49-44509a67b445)
 
+# Resources for Contributors
+Teensy Tutorial and Link to Download Arduino: https://www.pjrc.com/teensy/tutorial.html
+
+Servo Library: https://docs.arduino.cc/libraries/servo/
+
+Servo Library: https://docs.arduino.cc/language-reference/en/functions/communication/wire/
+
+Wire Library: https://docs.platformio.org/en/latest/projectconf/index.html
+
+Flight Software Setup - Landing Model Rockets Ep. 8: https://youtu.be/ha-0-D1vHmY?si=jSYhp7M_27cIr6Y0
+
  # Who This Is For
 - New Members: Learn by contributing to real aerospace systems, understand core control theory and sensor fusion
 
