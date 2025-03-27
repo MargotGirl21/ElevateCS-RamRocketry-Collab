@@ -4,6 +4,7 @@ This project focuses on developing an onboard guidance system for high-powered r
 # 🚀 Objective 1: Implementing a Kalman Fusion Filter
 🔧 What it is:
 A Kalman filter is an advanced algorithm that fuses noisy sensor data to estimate the true state of a system — in this case, the rocket’s orientation and motion.
+![maxresdefault](https://github.com/user-attachments/assets/667f783c-323d-4abf-b7ba-3a1035c04ca0)
 
 🧠 Why it matters:
 Rockets experience a lot of vibration and unpredictable motion. Raw data from sensors like gyroscopes and accelerometers can be noisy or drift over time. The Kalman filter takes all this data and intelligently smooths it out, providing a more accurate and stable estimate of things like pitch, roll, and yaw.
