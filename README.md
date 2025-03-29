@@ -1,8 +1,10 @@
 # 🛰️ Ram Rocketry & ElevateCS: Avionics Guidance System
 
-- Project Manager: Jackson Castleberry 
+- Project Manager & Lead Software Developer: Jackson Castleberry 
 
-- Systems and Software Engineering Team Lead: Sabrina Ornelas
+- Lead Systems Engineering Team: Sabrina Ornelas
+
+- Associate Lead Systems Engineering Team: Alessia Gambera
 
 - Main Systems and Software Engineering Team: Deon Ornelas, Parker Volesky, Osarumen Okhiku, Ethan Wise, Kyle Smith Hanna
 
