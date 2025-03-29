@@ -2,9 +2,9 @@
 
 - Project Manager & Lead Software Developer: Jackson Castleberry 
 
-- Lead Systems Engineering Team: Sabrina Ornelas
+- Lead Systems Engineer: Sabrina Ornelas
 
-- Associate Lead Systems Engineering Team: Alessia Gambera
+- Associate Lead Systems Engineer: Alessia Gambera
 
 - Main Systems and Software Engineering Team: Deon Ornelas, Parker Volesky, Osarumen Okhiku, Ethan Wise, Kyle Smith Hanna
 
