@@ -53,42 +53,43 @@ The PID controller will be developed after the Kalman filter is stable. It will 
 ![Drawing (2)](https://github.com/user-attachments/assets/6a2e45cb-eb40-4718-8e49-44509a67b445)
 
 # Resources for Contributors
-Teensy Tutorial and Link to Download Arduino: https://www.pjrc.com/teensy/tutorial.html
+- Teensy Tutorial and Link to Download Arduino: https://www.pjrc.com/teensy/tutorial.html
 
-Servo Library: https://docs.arduino.cc/libraries/servo/
+- Servo Library: https://docs.arduino.cc/libraries/servo/
 
-Servo Library: https://docs.arduino.cc/language-reference/en/functions/communication/wire/
+- Servo Library: https://docs.arduino.cc/language-reference/en/functions/communication/wire/
 
-Wire Library: https://docs.platformio.org/en/latest/projectconf/index.html
+- Wire Library: https://docs.platformio.org/en/latest/projectconf/index.html
 
-Flight Software Setup - Landing Model Rockets Ep. 8: https://youtu.be/ha-0-D1vHmY?si=jSYhp7M_27cIr6Y0
+- Flight Software Setup - Landing Model Rockets Ep. 8: https://youtu.be/ha-0-D1vHmY?si=jSYhp7M_27cIr6Y0
 
 # 🎯 Who This Is For
 This project is intended for:
 
 - New ElevateCS members
-Interested in learning how control systems work, contributing to hands-on rocketry software, or getting experience with C++, sensor data, and embedded systems.
+interested in learning how control systems work, contributing to hands-on rocketry software, or getting experience with C++, sensor data, and embedded systems.
 
 - Students curious about systems engineering
-Who want to see how early debugging, requirements analysis, and testing fit into the larger engineering lifecycle.
+who want to see how early debugging, requirements analysis, and testing fit into the larger engineering lifecycle.
 
 - Software or electrical engineering students
-With an interest in real-time systems, Kalman filters, PID controllers, or flight stabilization.
+  wth an interest in real-time systems, Kalman filters, PID controllers, or flight stabilization.
 
 - Open source contributors
-Looking to explore a modular and educational rocket control project.
+looking to explore a modular and educational rocket control project.
 
 # 🤝 How to Contribute
 We’re currently in the debugging and early testing phase, and all help is welcome — from software and hardware work to documentation, research, and testing!
 
 ## 🧠 You can help with:
-Debugging and improving the existing Kalman fusion filter code
 
-Writing test cases and visualizations using real or simulated sensor data
+- Debugging and improving the existing Kalman fusion filter code
 
-Documenting system behavior as we refine outputs (e.g., pitch/roll/yaw drift, latency, tuning needs)
+- Writing test cases and visualizations using real or simulated sensor data
 
-Learning and sharing knowledge about PID control, Teensy boards, or Arduino-based systems
+- Documenting system behavior as we refine outputs (e.g., pitch/roll/yaw drift, latency, tuning needs)
+
+- Learning and sharing knowledge about PID control, Teensy boards, or Arduino-based systems
 
 # 🛠️ Getting Started (Coming Soon)
 We’ll be publishing:
