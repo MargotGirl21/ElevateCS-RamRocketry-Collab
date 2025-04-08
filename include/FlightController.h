@@ -2,12 +2,12 @@
 #define FLIGHTCONTROLLER_H
 
 #include <Arduino.h>
-#include "sensors/IMU.h"
-#include "sensors/Altimeter.h"
-#include "actuators/Servos.h"
-#include "actuators/Parachute.h"
-#include "utils/PIDController.h"
-#include "utils/KalmanFilter.h"
+#include "IMU.h"
+#include "Altimeter.h"
+#include "Servos.h"
+#include "Parachute.h"
+#include "PIDController.h"
+#include "KalmanFilter.h"
 
 class FlightController {
 private:
